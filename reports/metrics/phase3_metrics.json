@@ -1,0 +1,151 @@
+{
+  "primary_model": "Phase 2 XGBoost",
+  "phase2_model_metrics_at_threshold_0_5": {
+    "roc_auc": 0.7866468441565756,
+    "pr_auc": 0.2882174181319247,
+    "recall": 0.6662638469284995,
+    "precision": 0.1994934266071644,
+    "f1": 0.30704970529540077,
+    "threshold": 0.5,
+    "confusion_matrix": {
+      "tn": 43264,
+      "fp": 13274,
+      "fn": 1657,
+      "tp": 3308
+    },
+    "best_iteration": 1114
+  },
+  "comparison_ann_recall_at_threshold_0_5": 0.7246727089627392,
+  "shap_sample_size": 5000,
+  "shap_max_additivity_error_raw_margin": 5.4836273193359375e-06,
+  "calibration_fit_source": "3-fold OOF predictions from Phase 1 training IDs only",
+  "selected_calibration": "Platt scaling",
+  "calibration_results": [
+    {
+      "method": "Platt scaling",
+      "brier_score": 0.06565695034478126,
+      "log_loss": 0.23679927854928323,
+      "expected_calibration_error_10bin": 0.004197138377279456,
+      "roc_auc": 0.7866468441565756,
+      "pr_auc": 0.2882174181319247
+    },
+    {
+      "method": "Isotonic regression",
+      "brier_score": 0.06566877731580323,
+      "log_loss": 0.23681000630332424,
+      "expected_calibration_error_10bin": 0.0045753850467130175,
+      "roc_auc": 0.7865668152784943,
+      "pr_auc": 0.2813905943045743
+    },
+    {
+      "method": "Uncalibrated",
+      "brier_score": 0.16601088643074036,
+      "log_loss": 0.5029816031455994,
+      "expected_calibration_error_10bin": 0.28256066988100836,
+      "roc_auc": 0.7866468441565756,
+      "pr_auc": 0.2882174181319247
+    }
+  ],
+  "risk_band_method": {
+    "method": "Search all validation decile boundaries with at least one decile per band; enforce monotonic observed default rates; maximize weighted between-band rate separation.",
+    "low_upper_probability": 0.09204257046000223,
+    "medium_upper_probability": 0.20082878736281207,
+    "selected_low_end_decile_zero_based": 6,
+    "selected_medium_end_decile_zero_based": 8,
+    "limitation": "Descriptive validation-derived bands; confirm on a future holdout before use."
+  },
+  "hypothetical_cost_assumptions": {
+    "false_positive_cost_units": 1,
+    "false_negative_cost_units_tested": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "is_real_home_credit_economics": false
+  },
+  "cost_optima": [
+    {
+      "threshold": 0.356885906884314,
+      "tn": 55738,
+      "fp": 800,
+      "fn": 4272,
+      "tp": 693,
+      "recall": 0.13957703927492446,
+      "precision": 0.46416610850636303,
+      "specificity": 0.985850224627684,
+      "f1": 0.21461752864663983,
+      "assumed_fn_cost": 2,
+      "assumed_fp_cost": 1,
+      "fn_to_fp_cost_ratio": "2:1",
+      "total_illustrative_cost_units": 9344,
+      "cost_units_per_1000_applicants": 151.9275482496789
+    },
+    {
+      "threshold": 0.18443283813801406,
+      "tn": 51466,
+      "fp": 5072,
+      "fn": 2899,
+      "tp": 2066,
+      "recall": 0.4161127895266868,
+      "precision": 0.2894368170355842,
+      "specificity": 0.9102904241395168,
+      "f1": 0.3414029579443113,
+      "assumed_fn_cost": 5,
+      "assumed_fp_cost": 1,
+      "fn_to_fp_cost_ratio": "5:1",
+      "total_illustrative_cost_units": 19567,
+      "cost_units_per_1000_applicants": 318.1470822561501
+    },
+    {
+      "threshold": 0.09933124689527063,
+      "tn": 42923,
+      "fp": 13615,
+      "fn": 1612,
+      "tp": 3353,
+      "recall": 0.6753272910372609,
+      "precision": 0.1976072607260726,
+      "specificity": 0.7591885103823977,
+      "f1": 0.3057493274973784,
+      "assumed_fn_cost": 10,
+      "assumed_fp_cost": 1,
+      "fn_to_fp_cost_ratio": "10:1",
+      "total_illustrative_cost_units": 29735,
+      "cost_units_per_1000_applicants": 483.47235094223043
+    },
+    {
+      "threshold": 0.054585941252962594,
+      "tn": 31104,
+      "fp": 25434,
+      "fn": 778,
+      "tp": 4187,
+      "recall": 0.8433031218529708,
+      "precision": 0.14135241889200229,
+      "specificity": 0.5501432664756447,
+      "f1": 0.24212108945816227,
+      "assumed_fn_cost": 20,
+      "assumed_fp_cost": 1,
+      "fn_to_fp_cost_ratio": "20:1",
+      "total_illustrative_cost_units": 40994,
+      "cost_units_per_1000_applicants": 666.5365917109734
+    }
+  ],
+  "preservation_checks": {
+    "before_sha256": {
+      "reports\\metrics\\baseline_metrics.json": "6c850975348faebca9918bc3fa2eb2507900edb76bfb6b6766beffcd86d4ceb3",
+      "reports\\metrics\\phase2_metrics.json": "d0a26f2e4318596b9fa9dc4a00ec261a6fb34d98fcb0e74f4e80a80eb83cbfc8",
+      "models\\phase2_xgboost.json": "f9710e3b6835b2fb94b71cf89c205afe5c476d48717975f98833ebd119b7d835",
+      "models\\phase2_preprocessor.joblib": "141cfea9cc4f8587c3eac9de1fd715754870b0f1597efe4e927366c17a9eb5c9",
+      "data\\processed\\phase2_validation_predictions.csv": "5e2e9407460c29d013792c7ab17c00905c62021e501198d03e9a4ad70a0002c8"
+    },
+    "after_sha256": {
+      "reports\\metrics\\baseline_metrics.json": "6c850975348faebca9918bc3fa2eb2507900edb76bfb6b6766beffcd86d4ceb3",
+      "reports\\metrics\\phase2_metrics.json": "d0a26f2e4318596b9fa9dc4a00ec261a6fb34d98fcb0e74f4e80a80eb83cbfc8",
+      "models\\phase2_xgboost.json": "f9710e3b6835b2fb94b71cf89c205afe5c476d48717975f98833ebd119b7d835",
+      "models\\phase2_preprocessor.joblib": "141cfea9cc4f8587c3eac9de1fd715754870b0f1597efe4e927366c17a9eb5c9",
+      "data\\processed\\phase2_validation_predictions.csv": "5e2e9407460c29d013792c7ab17c00905c62021e501198d03e9a4ad70a0002c8"
+    },
+    "all_preserved": true,
+    "max_recomputed_vs_saved_phase2_prediction_difference": 2.980117796980153e-08
+  }
+}

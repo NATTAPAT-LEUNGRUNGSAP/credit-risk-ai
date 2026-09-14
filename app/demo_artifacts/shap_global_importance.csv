@@ -1,0 +1,26 @@
+rank,feature,transformed_feature,mean_absolute_shap,directional_association,direction
+1,External source 2,num__EXT_SOURCE_2,0.3395418226718902,-0.9924471506194816,higher values tend to decrease risk
+2,External source 3,num__EXT_SOURCE_3,0.2966856658458709,-0.9592126373333896,higher values tend to decrease risk
+3,External source 1,num__EXT_SOURCE_1,0.137967512011528,-0.6061342825412366,higher values tend to decrease risk
+4,Amount Credit,num__AMT_CREDIT,0.1375463306903839,0.967246298012232,higher values tend to increase risk
+5,Amount Goods Price,num__AMT_GOODS_PRICE,0.1348014771938324,-0.7471462343505227,higher values tend to decrease risk
+6,Amount Annuity,num__AMT_ANNUITY,0.1101510226726532,0.9157398512761036,higher values tend to increase risk
+7,Installment Late Ratio,num__INST_LATE_RATIO,0.0984381362795829,0.9067563975464332,higher values tend to increase risk
+8,Days Birth,num__DAYS_BIRTH,0.093894638121128,0.4733423137874833,higher values tend to increase risk
+9,Installment Payment Amount Sum,num__INST_PAYMENT_AMOUNT_SUM,0.0928146839141845,-0.9610110707415356,higher values tend to decrease risk
+10,Days Employed,num__DAYS_EMPLOYED,0.090526595711708,0.8098436443401497,higher values tend to increase risk
+11,Previous Credit To Application Mean,num__PREV_CREDIT_TO_APPLICATION_MEAN,0.0849908888339996,0.8891952816104666,higher values tend to increase risk
+12,POS Future Instalments Mean,num__POS_FUTURE_INSTALMENTS_MEAN,0.0787065625190734,0.8720819317304772,higher values tend to increase risk
+13,POS Future Instalments Max,num__POS_FUTURE_INSTALMENTS_MAX,0.0686949044466018,0.6915810884557577,higher values tend to increase risk
+14,Code Gender = F,cat__CODE_GENDER_F,0.0684529691934585,-0.1454062312841415,presence tends to decrease risk
+15,Name Family Status = Married,cat__NAME_FAMILY_STATUS_Married,0.0668759047985076,-0.1421792767941951,presence tends to decrease risk
+16,Previous Refused Ratio,num__PREV_REFUSED_RATIO,0.0662639439105987,0.8063494886854924,higher values tend to increase risk
+17,Code Gender = M,cat__CODE_GENDER_M,0.065189853310585,0.1377779319882393,presence tends to increase risk
+18,Name Education Type = Higher Education,cat__NAME_EDUCATION_TYPE_Higher education,0.0644624084234237,-0.1824336871504783,presence tends to decrease risk
+19,Bureau Days Credit Max,num__BUREAU_DAYS_CREDIT_MAX,0.0603922866284847,0.4807159038802079,higher values tend to increase risk
+20,Bureau Debt To Credit Ratio,num__BUREAU_DEBT_TO_CREDIT_RATIO,0.0577115602791309,0.5238555515716599,higher values tend to increase risk
+21,Previous Annuity Mean,num__PREV_ANNUITY_MEAN,0.0548866316676139,-0.942206215213893,higher values tend to decrease risk
+22,Days Id Publish,num__DAYS_ID_PUBLISH,0.0511909462511539,0.9031582923626374,higher values tend to increase risk
+23,POS Latest Month,num__POS_LATEST_MONTH,0.0486625619232654,-0.7911673727753793,higher values tend to decrease risk
+24,POS Record Count,num__POS_RECORD_COUNT,0.0468078218400478,-0.9031882866512304,higher values tend to decrease risk
+25,Credit card Balance Latest,num__CC_BALANCE_LATEST,0.0459190718829631,0.4899905651352009,higher values tend to increase risk

@@ -1,0 +1,358 @@
+rank,feature,transformed_feature,mean_absolute_shap,directional_association,direction
+1,External source 2,num__EXT_SOURCE_2,0.33954182267189026,-0.9924471506194816,higher values tend to decrease risk
+2,External source 3,num__EXT_SOURCE_3,0.29668566584587097,-0.9592126373333896,higher values tend to decrease risk
+3,External source 1,num__EXT_SOURCE_1,0.13796751201152802,-0.6061342825412366,higher values tend to decrease risk
+4,Amount Credit,num__AMT_CREDIT,0.1375463306903839,0.9672462980122319,higher values tend to increase risk
+5,Amount Goods Price,num__AMT_GOODS_PRICE,0.1348014771938324,-0.7471462343505227,higher values tend to decrease risk
+6,Amount Annuity,num__AMT_ANNUITY,0.1101510226726532,0.9157398512761035,higher values tend to increase risk
+7,Installment Late Ratio,num__INST_LATE_RATIO,0.09843813627958298,0.9067563975464333,higher values tend to increase risk
+8,Days Birth,num__DAYS_BIRTH,0.09389463812112808,0.4733423137874833,higher values tend to increase risk
+9,Installment Payment Amount Sum,num__INST_PAYMENT_AMOUNT_SUM,0.09281468391418457,-0.9610110707415356,higher values tend to decrease risk
+10,Days Employed,num__DAYS_EMPLOYED,0.09052659571170807,0.8098436443401497,higher values tend to increase risk
+11,Previous Credit To Application Mean,num__PREV_CREDIT_TO_APPLICATION_MEAN,0.08499088883399963,0.8891952816104666,higher values tend to increase risk
+12,POS Future Instalments Mean,num__POS_FUTURE_INSTALMENTS_MEAN,0.07870656251907349,0.8720819317304772,higher values tend to increase risk
+13,POS Future Instalments Max,num__POS_FUTURE_INSTALMENTS_MAX,0.06869490444660187,0.6915810884557577,higher values tend to increase risk
+14,Code Gender = F,cat__CODE_GENDER_F,0.06845296919345856,-0.14540623128414154,presence tends to decrease risk
+15,Name Family Status = Married,cat__NAME_FAMILY_STATUS_Married,0.06687590479850769,-0.14217927679419518,presence tends to decrease risk
+16,Previous Refused Ratio,num__PREV_REFUSED_RATIO,0.06626394391059875,0.8063494886854924,higher values tend to increase risk
+17,Code Gender = M,cat__CODE_GENDER_M,0.06518985331058502,0.1377779319882393,presence tends to increase risk
+18,Name Education Type = Higher Education,cat__NAME_EDUCATION_TYPE_Higher education,0.06446240842342377,-0.18243368715047836,presence tends to decrease risk
+19,Bureau Days Credit Max,num__BUREAU_DAYS_CREDIT_MAX,0.060392286628484726,0.4807159038802079,higher values tend to increase risk
+20,Bureau Debt To Credit Ratio,num__BUREAU_DEBT_TO_CREDIT_RATIO,0.057711560279130936,0.5238555515716599,higher values tend to increase risk
+21,Previous Annuity Mean,num__PREV_ANNUITY_MEAN,0.05488663166761398,-0.942206215213893,higher values tend to decrease risk
+22,Days Id Publish,num__DAYS_ID_PUBLISH,0.051190946251153946,0.9031582923626374,higher values tend to increase risk
+23,POS Latest Month,num__POS_LATEST_MONTH,0.04866256192326546,-0.7911673727753793,higher values tend to decrease risk
+24,POS Record Count,num__POS_RECORD_COUNT,0.046807821840047836,-0.9031882866512303,higher values tend to decrease risk
+25,Credit card Balance Latest,num__CC_BALANCE_LATEST,0.04591907188296318,0.4899905651352009,higher values tend to increase risk
+26,Flag Document 3,num__FLAG_DOCUMENT_3,0.04470142722129822,0.7880074522921947,higher values tend to increase risk
+27,Flag Own Car = N,cat__FLAG_OWN_CAR_N,0.04424729198217392,0.0993931032717228,presence tends to increase risk
+28,Installment Days past due Mean,num__INST_DPD_MEAN,0.04206538572907448,0.9120953409170988,higher values tend to increase risk
+29,Credit card Limit Mean,num__CC_LIMIT_MEAN,0.038777533918619156,-0.6572968771643999,higher values tend to decrease risk
+30,Own Car Age,num__OWN_CAR_AGE,0.03838996961712837,0.6728919125080262,higher values tend to increase risk
+31,Credit card Utilization Max,num__CC_UTILIZATION_MAX,0.03768960386514664,0.4682856665875503,higher values tend to increase risk
+32,Installment Payment Count,num__INST_PAYMENT_COUNT,0.03751632571220398,-0.8841158071940546,higher values tend to decrease risk
+33,Bureau Active Count,num__BUREAU_ACTIVE_COUNT,0.0365108996629715,0.5645110891162407,higher values tend to increase risk
+34,Region Population Relative,num__REGION_POPULATION_RELATIVE,0.03588971123099327,0.6930949916748035,higher values tend to increase risk
+35,Installment Payment To Due Ratio,num__INST_PAYMENT_TO_DUE_RATIO,0.035586319863796234,-0.8860069412782193,higher values tend to decrease risk
+36,Bureau Debt Mean,num__BUREAU_DEBT_MEAN,0.035495176911354065,0.6482379709471888,higher values tend to increase risk
+37,POS Active Ratio,num__POS_ACTIVE_RATIO,0.03164547309279442,-0.7153314484943201,higher values tend to decrease risk
+38,Name Income Type = Working,cat__NAME_INCOME_TYPE_Working,0.03149988129734993,0.0633070096373558,presence tends to increase risk
+39,Region Rating Client W City,num__REGION_RATING_CLIENT_W_CITY,0.031458381563425064,0.7607676715921711,higher values tend to increase risk
+40,POS Oldest Month,num__POS_OLDEST_MONTH,0.030570467934012413,0.9069389059401477,higher values tend to increase risk
+41,Previous Days Decision Max,num__PREV_DAYS_DECISION_MAX,0.029801949858665466,0.8655478432302992,higher values tend to increase risk
+42,Previous Term Max,num__PREV_TERM_MAX,0.029481815174221992,0.8386093219737987,higher values tend to increase risk
+43,Bureau Credit Mean,num__BUREAU_CREDIT_MEAN,0.027486080303788185,-0.49938431545737305,higher values tend to decrease risk
+44,Bureau Credit Sum,num__BUREAU_CREDIT_SUM,0.026278279721736908,-0.21031125966064462,higher values tend to decrease risk
+45,Bureau Days Credit Mean,num__BUREAU_DAYS_CREDIT_MEAN,0.025748346000909805,0.7729627109433079,higher values tend to increase risk
+46,Days Last Phone Change,num__DAYS_LAST_PHONE_CHANGE,0.025527071207761765,0.8694397687813127,higher values tend to increase risk
+47,Previous Term Mean,num__PREV_TERM_MEAN,0.02549836039543152,0.822857017467747,higher values tend to increase risk
+48,Installment Payment Amount Mean,num__INST_PAYMENT_AMOUNT_MEAN,0.025401262566447258,-0.7001384291097469,higher values tend to decrease risk
+49,Bureau Credit Max,num__BUREAU_CREDIT_MAX,0.02427455596625805,0.0017794303003639434,mixed or non-monotonic effect
+50,Amount Req Credit Bureau Qrt,num__AMT_REQ_CREDIT_BUREAU_QRT,0.02380504086613655,-0.647857017260531,higher values tend to decrease risk
+51,Days Registration,num__DAYS_REGISTRATION,0.022999554872512817,0.5953840460021139,higher values tend to increase risk
+52,Amount Income Total,num__AMT_INCOME_TOTAL,0.022553477436304092,-0.7862062555666639,higher values tend to decrease risk
+53,Installment Due Amount Sum,num__INST_DUE_AMOUNT_SUM,0.02247045934200287,-0.952200928930234,higher values tend to decrease risk
+54,Previous Down Payment Mean,num__PREV_DOWN_PAYMENT_MEAN,0.022295238450169563,-0.6126861927925634,higher values tend to decrease risk
+55,Name Contract Type = Cash Loans,cat__NAME_CONTRACT_TYPE_Cash loans,0.02214335836470127,0.1686069443821907,presence tends to increase risk
+56,Bureau Closed Ratio,num__BUREAU_CLOSED_RATIO,0.021850256249308586,-0.8724515307532145,higher values tend to decrease risk
+57,Name Education Type = Secondary / Secondary Special,cat__NAME_EDUCATION_TYPE_Secondary / secondary special,0.021276598796248436,0.05408800393342972,presence tends to increase risk
+58,Bureau Days Update Mean,num__BUREAU_DAYS_UPDATE_MEAN,0.02077248878777027,-0.6913647054216268,higher values tend to decrease risk
+59,Flag Work Phone,num__FLAG_WORK_PHONE,0.020587684586644173,0.6890695923731355,higher values tend to increase risk
+60,Installment Days past due Max,num__INST_DPD_MAX,0.020190812647342682,0.7751569274529357,higher values tend to increase risk
+61,Def 60 Count Social Circle,num__DEF_60_CNT_SOCIAL_CIRCLE,0.02016790397465229,0.4841104055953552,higher values tend to increase risk
+62,Credit card Drawing Count Sum,num__CC_DRAWING_COUNT_SUM,0.01970474049448967,0.5547378163803478,higher values tend to increase risk
+63,Reg City Not Live City,num__REG_CITY_NOT_LIVE_CITY,0.019587259739637375,0.4572732257195268,higher values tend to increase risk
+64,Organization Type = Self-Employed,cat__ORGANIZATION_TYPE_Self-employed,0.01945841684937477,0.08120125159621239,presence tends to increase risk
+65,Installment Underpay Amount Max,num__INST_UNDERPAY_AMOUNT_MAX,0.019228991121053696,0.5742829727595498,higher values tend to increase risk
+66,Previous Credit To Application Total,num__PREV_CREDIT_TO_APPLICATION_TOTAL,0.019217200577259064,0.8127013758315645,higher values tend to increase risk
+67,Organization Type = Business Entity Type 3,cat__ORGANIZATION_TYPE_Business Entity Type 3,0.017904289066791534,0.049928790889680386,presence tends to increase risk
+68,Credit card Atm Drawings Sum,num__CC_ATM_DRAWINGS_SUM,0.01786026544868946,0.6341242719439578,higher values tend to increase risk
+69,Bureau Limit Sum,num__BUREAU_LIMIT_SUM,0.015925686806440353,-0.08447202665639277,mixed or non-monotonic effect
+70,Occupation Type = Core Staff,cat__OCCUPATION_TYPE_Core staff,0.01587400585412979,-0.10724043473601341,presence tends to decrease risk
+71,POS Days past due Def Mean,num__POS_DPD_DEF_MEAN,0.015037192963063717,0.5287858999436432,higher values tend to increase risk
+72,Previous Days Decision Mean,num__PREV_DAYS_DECISION_MEAN,0.01485616434365511,0.7516823483113427,higher values tend to increase risk
+73,Bureau Balance Month Count,num__BUREAU_BALANCE_MONTH_COUNT,0.014462452381849289,-0.7976236088321129,higher values tend to decrease risk
+74,Previous Insured Ratio,num__PREV_INSURED_RATIO,0.01443529687821865,0.7455189364252031,higher values tend to increase risk
+75,Credit card Record Count,num__CC_RECORD_COUNT,0.014305914752185345,-0.6474852705484195,higher values tend to decrease risk
+76,Hour Appr Process Start,num__HOUR_APPR_PROCESS_START,0.013788766227662563,-0.46510755570084433,higher values tend to decrease risk
+77,Previous Days Decision Min,num__PREV_DAYS_DECISION_MIN,0.013347453437745571,0.5741621372341873,higher values tend to increase risk
+78,Def 30 Count Social Circle,num__DEF_30_CNT_SOCIAL_CIRCLE,0.012753104791045189,0.5547284950090748,higher values tend to increase risk
+79,Bureau Days Credit Min,num__BUREAU_DAYS_CREDIT_MIN,0.011364556849002838,-0.286193158549037,higher values tend to decrease risk
+80,Installment Underpay Ratio,num__INST_UNDERPAY_RATIO,0.011292064562439919,0.5890028496060901,higher values tend to increase risk
+81,Flag Phone,num__FLAG_PHONE,0.010843123309314251,-0.7778249880134965,higher values tend to decrease risk
+82,Flag Own Car = Y,cat__FLAG_OWN_CAR_Y,0.010747741907835007,-0.023514091968536377,presence tends to decrease risk
+83,Previous Credit Amount Sum,num__PREV_CREDIT_AMOUNT_SUM,0.01045262347906828,0.8047031327776984,higher values tend to increase risk
+84,Credit card Utilization Total,num__CC_UTILIZATION_TOTAL,0.010427829809486866,0.5247474594633781,higher values tend to increase risk
+85,Bureau Closed Count,num__BUREAU_CLOSED_COUNT,0.010069707408547401,-0.7838442689449742,higher values tend to decrease risk
+86,Bureau Debt Sum,num__BUREAU_DEBT_SUM,0.009967505931854248,0.5967385603342835,higher values tend to increase risk
+87,Weekday Appr Process Start = Monday,cat__WEEKDAY_APPR_PROCESS_START_MONDAY,0.009723625145852566,-0.0363088920712471,presence tends to decrease risk
+88,POS Contract Count,num__POS_CONTRACT_COUNT,0.009656056761741638,-0.768477388190584,higher values tend to decrease risk
+89,Previous Credit Amount Mean,num__PREV_CREDIT_AMOUNT_MEAN,0.009285224601626396,0.3033843132679101,higher values tend to increase risk
+90,Apartments Medi,num__APARTMENTS_MEDI,0.009155744686722755,-0.28553665154881064,higher values tend to decrease risk
+91,POS Days past due Def Max,num__POS_DPD_DEF_MAX,0.009147846139967442,0.4165522621254179,higher values tend to increase risk
+92,Amount Req Credit Bureau Year,num__AMT_REQ_CREDIT_BUREAU_YEAR,0.008813388645648956,-0.793995197185781,higher values tend to decrease risk
+93,Credit card Utilization Mean,num__CC_UTILIZATION_MEAN,0.008726357482373714,0.4402733318087964,higher values tend to increase risk
+94,Years Beginexpluatation Mode,num__YEARS_BEGINEXPLUATATION_MODE,0.008672935888171196,-0.31810762821909777,higher values tend to decrease risk
+95,Previous Application Amount Sum,num__PREV_APPLICATION_AMOUNT_SUM,0.008145583793520927,0.5718938917285182,higher values tend to increase risk
+96,POS Completed Ratio,num__POS_COMPLETED_RATIO,0.008127709850668907,0.44076271319207166,higher values tend to increase risk
+97,Basementarea Avg,num__BASEMENTAREA_AVG,0.0076796384528279305,-0.32522515927033474,higher values tend to decrease risk
+98,Previous Annuity Sum,num__PREV_ANNUITY_SUM,0.007668031379580498,-0.6006208230400811,higher values tend to decrease risk
+99,Occupation Type = Drivers,cat__OCCUPATION_TYPE_Drivers,0.007630802225321531,0.05769343534484506,presence tends to increase risk
+100,Bureau Loan Count,num__BUREAU_LOAN_COUNT,0.007510680239647627,0.8068478125592018,higher values tend to increase risk
+101,Weekday Appr Process Start = Saturday,cat__WEEKDAY_APPR_PROCESS_START_SATURDAY,0.0075097884982824326,-0.040711349342018366,presence tends to decrease risk
+102,"Wallsmaterial Mode = Stone, Brick","cat__WALLSMATERIAL_MODE_Stone, brick",0.007228089962154627,0.022362541873008013,presence tends to increase risk
+103,Name Family Status = Single / Not Married,cat__NAME_FAMILY_STATUS_Single / not married,0.007125585339963436,0.027624466456472874,presence tends to increase risk
+104,Previous Application Amount Mean,num__PREV_APPLICATION_AMOUNT_MEAN,0.0070877219550311565,-0.4593846067685067,higher values tend to decrease risk
+105,Credit card Min Payment Sum,num__CC_MIN_PAYMENT_SUM,0.007058117538690567,-0.08313971863084899,mixed or non-monotonic effect
+106,Bureau Balance Unknown Months,num__BUREAU_BALANCE_UNKNOWN_MONTHS,0.007048439234495163,-0.6059068545390834,higher values tend to decrease risk
+107,Previous Down Payment Rate Mean,num__PREV_DOWN_PAYMENT_RATE_MEAN,0.006908347364515066,0.22237382692602065,higher values tend to increase risk
+108,Organization Type = School,cat__ORGANIZATION_TYPE_School,0.006776167079806328,-0.14051184966228902,presence tends to decrease risk
+109,Previous Approved Ratio,num__PREV_APPROVED_RATIO,0.00635638227686286,-0.5560623246032679,higher values tend to decrease risk
+110,Organization Type = Construction,cat__ORGANIZATION_TYPE_Construction,0.0063051325269043446,0.13841987354680896,presence tends to increase risk
+111,Occupation Type = Accountants,cat__OCCUPATION_TYPE_Accountants,0.006099277175962925,-0.11459441389888525,presence tends to decrease risk
+112,Weekday Appr Process Start = Wednesday,cat__WEEKDAY_APPR_PROCESS_START_WEDNESDAY,0.006094753742218018,0.020770954433828592,presence tends to increase risk
+113,POS Delinquent Ratio,num__POS_DELINQUENT_RATIO,0.006033668294548988,-0.520829767373179,higher values tend to decrease risk
+114,Installment Due Amount Mean,num__INST_DUE_AMOUNT_MEAN,0.005841173231601715,0.1622397660987083,higher values tend to increase risk
+115,Apartments Mode,num__APARTMENTS_MODE,0.005836662836372852,-0.1026160499857366,higher values tend to decrease risk
+116,Flag Document 16,num__FLAG_DOCUMENT_16,0.005825762636959553,-0.17902536491235885,higher values tend to decrease risk
+117,Basementarea Mode,num__BASEMENTAREA_MODE,0.005705350078642368,0.5820155709081998,higher values tend to increase risk
+118,Installment Underpay Amount Sum,num__INST_UNDERPAY_AMOUNT_SUM,0.005429338663816452,0.666065612332189,higher values tend to increase risk
+119,Bureau Balance Closed Months,num__BUREAU_BALANCE_CLOSED_MONTHS,0.005408663768321276,-0.6155877678073847,higher values tend to decrease risk
+120,Obs 60 Count Social Circle,num__OBS_60_CNT_SOCIAL_CIRCLE,0.005343916360288858,-0.3896379493386688,higher values tend to decrease risk
+121,Name Income Type = State Servant,cat__NAME_INCOME_TYPE_State servant,0.005328063387423754,-0.04552921559661627,presence tends to decrease risk
+122,Credit card Payment Current Sum,num__CC_PAYMENT_CURRENT_SUM,0.005219438578933477,-0.2516858766674119,higher values tend to decrease risk
+123,Flag Document 18,num__FLAG_DOCUMENT_18,0.0051789190620183945,-0.16176427617976502,higher values tend to decrease risk
+124,Nonlivingarea Mode,num__NONLIVINGAREA_MODE,0.00513903284445405,-0.6608851445505413,higher values tend to decrease risk
+125,Floorsmax Medi,num__FLOORSMAX_MEDI,0.004972067195922136,-0.2907461376962259,higher values tend to decrease risk
+126,Bureau Balance Delinquent Ratio,num__BUREAU_BALANCE_DELINQUENT_RATIO,0.004884270019829273,0.28454953202705197,higher values tend to increase risk
+127,Organization Type = Industry: Type 9,cat__ORGANIZATION_TYPE_Industry: type 9,0.0047916751354932785,-0.2378199603408575,presence tends to decrease risk
+128,Entrances Avg,num__ENTRANCES_AVG,0.004726585932075977,-0.6658122758539426,higher values tend to decrease risk
+129,Organization Type = Military,cat__ORGANIZATION_TYPE_Military,0.004709005821496248,-0.31154983141459525,presence tends to decrease risk
+130,Bureau Active Ratio,num__BUREAU_ACTIVE_RATIO,0.004570543300360441,0.313243556279271,higher values tend to increase risk
+131,Years Build Mode,num__YEARS_BUILD_MODE,0.004543452989310026,0.14950609445560437,higher values tend to increase risk
+132,Credit card Payment To Min Ratio,num__CC_PAYMENT_TO_MIN_RATIO,0.004496345296502113,0.23823512296135113,higher values tend to increase risk
+133,Name Housing Type = House / Apartment,cat__NAME_HOUSING_TYPE_House / apartment,0.004367107525467873,-0.02054784120991826,presence tends to decrease risk
+134,Elevators Avg,num__ELEVATORS_AVG,0.00436708377674222,-0.6484742883096689,higher values tend to decrease risk
+135,Landarea Avg,num__LANDAREA_AVG,0.004363640211522579,-0.6155152941210951,higher values tend to decrease risk
+136,Obs 30 Count Social Circle,num__OBS_30_CNT_SOCIAL_CIRCLE,0.004339177161455154,0.3991087168799394,higher values tend to increase risk
+137,Commonarea Medi,num__COMMONAREA_MEDI,0.004261687397956848,-0.025708450301154567,mixed or non-monotonic effect
+138,Previous Refused Count,num__PREV_REFUSED_COUNT,0.00424103531986475,0.7699310622340546,higher values tend to increase risk
+139,Installment Days past due Sum,num__INST_DPD_SUM,0.004125573672354221,-0.31328046009037663,higher values tend to decrease risk
+140,Totalarea Mode,num__TOTALAREA_MODE,0.003996848128736019,0.2702265907219791,higher values tend to increase risk
+141,Nonlivingapartments Mode,num__NONLIVINGAPARTMENTS_MODE,0.003900781273841858,0.5073873907841246,higher values tend to increase risk
+142,Name Income Type = Pensioner,cat__NAME_INCOME_TYPE_Pensioner,0.003896437119692564,-0.014190997462719679,presence tends to decrease risk
+143,Landarea Mode,num__LANDAREA_MODE,0.003879510797560215,-0.654389945495549,higher values tend to decrease risk
+144,Previous Repeater Ratio,num__PREV_REPEATER_RATIO,0.0038539718370884657,0.16965571302887894,higher values tend to increase risk
+145,Landarea Medi,num__LANDAREA_MEDI,0.0038367926608771086,-0.700732801370172,higher values tend to decrease risk
+146,Apartments Avg,num__APARTMENTS_AVG,0.0037902863696217537,-0.22248698293026867,higher values tend to decrease risk
+147,POS Days past due Mean,num__POS_DPD_MEAN,0.003744164714589715,-0.5447803692719264,higher values tend to decrease risk
+148,Nonlivingapartments Avg,num__NONLIVINGAPARTMENTS_AVG,0.003686287207528949,0.4785423184727287,higher values tend to increase risk
+149,Flag Own Realty = N,cat__FLAG_OWN_REALTY_N,0.003590887878090143,-0.00826832721941173,presence tends to decrease risk
+150,Years Beginexpluatation Medi,num__YEARS_BEGINEXPLUATATION_MEDI,0.0035589393228292465,-0.595229580257871,higher values tend to decrease risk
+151,Livingapartments Avg,num__LIVINGAPARTMENTS_AVG,0.003550532041117549,0.16741655634783975,higher values tend to increase risk
+152,Livingarea Mode,num__LIVINGAREA_MODE,0.0035431301221251488,0.4467940965368402,higher values tend to increase risk
+153,Installment Underpay Count,num__INST_UNDERPAY_COUNT,0.003523120889440179,-0.196589678181378,higher values tend to decrease risk
+154,Nonlivingarea Avg,num__NONLIVINGAREA_AVG,0.003500264836475253,-0.2108543427913232,higher values tend to decrease risk
+155,Previous Approved Count,num__PREV_APPROVED_COUNT,0.0034554351586848497,0.3621173381643022,higher values tend to increase risk
+156,Floorsmax Avg,num__FLOORSMAX_AVG,0.0034445503260940313,-0.23408819273757353,higher values tend to decrease risk
+157,Bureau Balance Oldest Month,num__BUREAU_BALANCE_OLDEST_MONTH,0.003400248009711504,0.42385047623600947,higher values tend to increase risk
+158,Livingarea Medi,num__LIVINGAREA_MEDI,0.0033863994758576155,-0.33955474074158015,higher values tend to decrease risk
+159,Bureau Annuity Sum,num__BUREAU_ANNUITY_SUM,0.003383721923455596,0.03481498585450379,mixed or non-monotonic effect
+160,Bureau Credit Type Count,num__BUREAU_CREDIT_TYPE_COUNT,0.0033536471892148256,-0.18085415573885608,higher values tend to decrease risk
+161,Years Beginexpluatation Avg,num__YEARS_BEGINEXPLUATATION_AVG,0.003279009135439992,-0.3920973904660177,higher values tend to decrease risk
+162,Commonarea Avg,num__COMMONAREA_AVG,0.003206368535757065,0.09083281850050735,mixed or non-monotonic effect
+163,Region Rating Client,num__REGION_RATING_CLIENT,0.00317538995295763,0.713880648140961,higher values tend to increase risk
+164,Livingarea Avg,num__LIVINGAREA_AVG,0.0031372890807688236,0.25482585992945417,higher values tend to increase risk
+165,Flag Emp Phone,num__FLAG_EMP_PHONE,0.003044424345716834,0.682375107605559,higher values tend to increase risk
+166,Credit card Balance Max,num__CC_BALANCE_MAX,0.0030320840887725353,0.15931574870161008,higher values tend to increase risk
+167,Wallsmaterial Mode = Panel,cat__WALLSMATERIAL_MODE_Panel,0.0030173850245773792,-0.0073915672255679965,presence tends to decrease risk
+168,Previous Application Count,num__PREV_APPLICATION_COUNT,0.002859965432435274,0.7219408267791877,higher values tend to increase risk
+169,Nonlivingarea Medi,num__NONLIVINGAREA_MEDI,0.002774651627987623,0.40404898823986374,higher values tend to increase risk
+170,Basementarea Medi,num__BASEMENTAREA_MEDI,0.002612229436635971,-0.04577898146600275,mixed or non-monotonic effect
+171,Amount Req Credit Bureau Mon,num__AMT_REQ_CREDIT_BUREAU_MON,0.002612193813547492,0.12088226573400748,higher values tend to increase risk
+172,Livingapartments Mode,num__LIVINGAPARTMENTS_MODE,0.0025948050897568464,-0.02905987526774671,mixed or non-monotonic effect
+173,Weekday Appr Process Start = Sunday,cat__WEEKDAY_APPR_PROCESS_START_SUNDAY,0.0025645974092185497,-0.025022369693033397,presence tends to decrease risk
+174,Organization Type = Kindergarten,cat__ORGANIZATION_TYPE_Kindergarten,0.002529735444113612,-0.06047832081094384,presence tends to decrease risk
+175,POS Days past due Max,num__POS_DPD_MAX,0.002482870128005743,-0.2226029569850802,higher values tend to decrease risk
+176,Commonarea Mode,num__COMMONAREA_MODE,0.002436993410810828,0.2793798217985239,higher values tend to increase risk
+177,Years Build Avg,num__YEARS_BUILD_AVG,0.0024095557164400816,-0.08070997136332458,mixed or non-monotonic effect
+178,Installment Contract Count,num__INST_CONTRACT_COUNT,0.0023995009250938892,-0.30356182266869425,higher values tend to decrease risk
+179,Count Fam Members,num__CNT_FAM_MEMBERS,0.0023630792275071144,-0.4784661511445061,higher values tend to decrease risk
+180,Credit card Min Payment Shortfall Sum,num__CC_MIN_PAYMENT_SHORTFALL_SUM,0.0023368734400719404,-0.18415908268167003,higher values tend to decrease risk
+181,Organization Type = Transport: Type 3,cat__ORGANIZATION_TYPE_Transport: type 3,0.0022722166031599045,0.2324609913630411,presence tends to increase risk
+182,Livingapartments Medi,num__LIVINGAPARTMENTS_MEDI,0.002254113554954529,0.06665435873336147,mixed or non-monotonic effect
+183,Entrances Medi,num__ENTRANCES_MEDI,0.0022354458924382925,-0.582016513572785,higher values tend to decrease risk
+184,Name Contract Type = Revolving Loans,cat__NAME_CONTRACT_TYPE_Revolving loans,0.0022203894332051277,-0.01677260734140873,presence tends to decrease risk
+185,Years Build Medi,num__YEARS_BUILD_MEDI,0.002207378624007106,0.11023653461300488,higher values tend to increase risk
+186,Reg Region Not Live Region,num__REG_REGION_NOT_LIVE_REGION,0.002168199047446251,-0.21463905013486448,higher values tend to decrease risk
+187,Weekday Appr Process Start = Friday,cat__WEEKDAY_APPR_PROCESS_START_FRIDAY,0.002161451382562518,0.0065178491640836,presence tends to increase risk
+188,Occupation Type = Sales Staff,cat__OCCUPATION_TYPE_Sales staff,0.0021351613104343414,0.005227257846854627,presence tends to increase risk
+189,Name Education Type = Incomplete Higher,cat__NAME_EDUCATION_TYPE_Incomplete higher,0.0020968264434486628,-0.03438426717184484,presence tends to decrease risk
+190,Organization Type = Trade: Type 2,cat__ORGANIZATION_TYPE_Trade: type 2,0.0020580694545060396,-0.17313615669263527,presence tends to decrease risk
+191,Flag Document 13,num__FLAG_DOCUMENT_13,0.002029069233685732,-0.0882027228126334,mixed or non-monotonic effect
+192,Organization Type = Police,cat__ORGANIZATION_TYPE_Police,0.0020142444409430027,-0.1522786941495724,presence tends to decrease risk
+193,Bureau Balance Delinquent Months,num__BUREAU_BALANCE_DELINQUENT_MONTHS,0.0020123119466006756,0.22532300572816955,higher values tend to increase risk
+194,Name Education Type = Lower Secondary,cat__NAME_EDUCATION_TYPE_Lower secondary,0.0019817566499114037,0.06150494783651084,presence tends to increase risk
+195,Organization Type = Bank,cat__ORGANIZATION_TYPE_Bank,0.0019441642798483372,-0.13943890010705218,presence tends to decrease risk
+196,Credit card Balance Mean,num__CC_BALANCE_MEAN,0.0019150474108755589,0.3251431026398018,higher values tend to increase risk
+197,Name Housing Type = Office Apartment,cat__NAME_HOUSING_TYPE_Office apartment,0.0019150222651660442,-0.12282910442445427,presence tends to decrease risk
+198,Count Children,num__CNT_CHILDREN,0.0018941761227324605,0.07458264176523817,mixed or non-monotonic effect
+199,Name Housing Type = Rented Apartment,cat__NAME_HOUSING_TYPE_Rented apartment,0.0017697204602882266,0.04129226820077747,presence tends to increase risk
+200,Occupation Type = Low-Skill Laborers,cat__OCCUPATION_TYPE_Low-skill Laborers,0.0017658083233982325,0.1396512648789212,presence tends to increase risk
+201,Credit card Drawings Sum,num__CC_DRAWINGS_SUM,0.0017042673425748944,0.5916109404680884,higher values tend to increase risk
+202,Name Income Type = Commercial Associate,cat__NAME_INCOME_TYPE_Commercial associate,0.0016425447538495064,0.0032515404745936394,presence tends to increase risk
+203,Installment Late Count,num__INST_LATE_COUNT,0.0016385490307584405,-0.23666037200836282,higher values tend to decrease risk
+204,Organization Type = Other,cat__ORGANIZATION_TYPE_Other,0.0016370235243812203,-0.01610567106399685,presence tends to decrease risk
+205,Organization Type = Security Ministries,cat__ORGANIZATION_TYPE_Security Ministries,0.0015918586868792772,-0.157895848096814,presence tends to decrease risk
+206,Floorsmin Avg,num__FLOORSMIN_AVG,0.0015366356819868088,0.06330898319922694,mixed or non-monotonic effect
+207,Bureau Sold Count,num__BUREAU_SOLD_COUNT,0.001489689340814948,0.20774063290431932,higher values tend to increase risk
+208,Organization Type = Medicine,cat__ORGANIZATION_TYPE_Medicine,0.001484823296777904,-0.0222076463396661,presence tends to decrease risk
+209,Occupation Type = High Skill Tech Staff,cat__OCCUPATION_TYPE_High skill tech staff,0.0014774907613173127,-0.025098176614847034,presence tends to decrease risk
+210,Flag Document 6,num__FLAG_DOCUMENT_6,0.0014529863838106394,0.37535421904722704,higher values tend to increase risk
+211,Elevators Medi,num__ELEVATORS_MEDI,0.0014506306033581495,-0.6150960066180698,higher values tend to decrease risk
+212,Flag Document 11,num__FLAG_DOCUMENT_11,0.0014381681103259325,-0.11463821582237942,higher values tend to decrease risk
+213,Name Housing Type = Municipal Apartment,cat__NAME_HOUSING_TYPE_Municipal apartment,0.0013310356298461556,0.019767050282098353,presence tends to increase risk
+214,Entrances Mode,num__ENTRANCES_MODE,0.0013089553685858846,-0.5041613244903757,higher values tend to decrease risk
+215,Credit card Payment Total Sum,num__CC_PAYMENT_TOTAL_SUM,0.0012851146748289466,-0.27025897692349143,higher values tend to decrease risk
+216,Occupation Type = Medicine Staff,cat__OCCUPATION_TYPE_Medicine staff,0.0012436516117304564,-0.022900600510183722,presence tends to decrease risk
+217,Organization Type = Business Entity Type 2,cat__ORGANIZATION_TYPE_Business Entity Type 2,0.0011694264831021428,0.0162002447177656,presence tends to increase risk
+218,Weekday Appr Process Start = Tuesday,cat__WEEKDAY_APPR_PROCESS_START_TUESDAY,0.0010983924148604274,0.0022170476149767637,presence tends to increase risk
+219,Credit card Days past due Max,num__CC_DPD_MAX,0.0010519170900806785,-0.09064521234421959,mixed or non-monotonic effect
+220,Bureau Overdue Amount Sum,num__BUREAU_OVERDUE_AMOUNT_SUM,0.0010463945800438523,0.010720328064789767,mixed or non-monotonic effect
+221,Credit card Min Payment Shortfall Ratio,num__CC_MIN_PAYMENT_SHORTFALL_RATIO,0.0010293381055817008,-0.23324495712498075,higher values tend to decrease risk
+222,Organization Type = Government,cat__ORGANIZATION_TYPE_Government,0.000989444786682725,-0.016630992729915306,presence tends to decrease risk
+223,Bureau Prolong Sum,num__BUREAU_PROLONG_SUM,0.000957158743403852,0.12067440319785082,higher values tend to increase risk
+224,Name Type Suite = Unaccompanied,cat__NAME_TYPE_SUITE_Unaccompanied,0.0009103110060095787,0.00016670628974679857,presence tends to increase risk
+225,Previous Canceled Count,num__PREV_CANCELED_COUNT,0.0009070037049241364,-0.2684514139949787,higher values tend to decrease risk
+226,Credit card Active Ratio,num__CC_ACTIVE_RATIO,0.0008857707725837827,-0.29188975114266325,higher values tend to decrease risk
+227,Elevators Mode,num__ELEVATORS_MODE,0.000883287051692605,-0.16451852114516366,higher values tend to decrease risk
+228,Credit card Days past due Def Mean,num__CC_DPD_DEF_MEAN,0.0008444556151516736,-0.27926556022536514,higher values tend to decrease risk
+229,Floorsmin Medi,num__FLOORSMIN_MEDI,0.0008406364358961582,-0.0475612444301573,mixed or non-monotonic effect
+230,Flag Document 14,num__FLAG_DOCUMENT_14,0.0008214563131332397,-0.08475093171317563,mixed or non-monotonic effect
+231,Name Education Type = Academic Degree,cat__NAME_EDUCATION_TYPE_Academic degree,0.0008214486297219992,-0.571051140446798,presence tends to decrease risk
+232,Amount Req Credit Bureau Day,num__AMT_REQ_CREDIT_BUREAU_DAY,0.0008077640668489039,0.11249808571367126,higher values tend to increase risk
+233,Reg City Not Work City,num__REG_CITY_NOT_WORK_CITY,0.0007901704520918429,0.5704762551145123,higher values tend to increase risk
+234,Amount Req Credit Bureau Week,num__AMT_REQ_CREDIT_BUREAU_WEEK,0.0007765938062220812,-0.26103472171463094,higher values tend to decrease risk
+235,Organization Type = Realtor,cat__ORGANIZATION_TYPE_Realtor,0.000774728658143431,0.24191243862151168,presence tends to increase risk
+236,Floorsmin Mode,num__FLOORSMIN_MODE,0.000743366836104542,-0.16250078337351673,higher values tend to decrease risk
+237,Occupation Type = Laborers,cat__OCCUPATION_TYPE_Laborers,0.0007340603042393923,-0.0008086934394668788,presence tends to decrease risk
+238,Live City Not Work City,num__LIVE_CITY_NOT_WORK_CITY,0.0006619500927627087,-0.16503275684674482,higher values tend to decrease risk
+239,Fondkapremont Mode = Reg Oper Spec Account,cat__FONDKAPREMONT_MODE_reg oper spec account,0.0006492313113994896,-0.009236900310497731,presence tends to decrease risk
+240,Floorsmax Mode,num__FLOORSMAX_MODE,0.0006374308140948415,-0.48025733601626674,higher values tend to decrease risk
+241,Live Region Not Work Region,num__LIVE_REGION_NOT_WORK_REGION,0.0006084034685045481,-0.33089646497826414,higher values tend to decrease risk
+242,Flag Email,num__FLAG_EMAIL,0.0005916689988225698,-0.36084710804745324,higher values tend to decrease risk
+243,Name Family Status = Civil Marriage,cat__NAME_FAMILY_STATUS_Civil marriage,0.0005623747711069882,0.0002867218427127227,presence tends to increase risk
+244,Fondkapremont Mode = Not Specified,cat__FONDKAPREMONT_MODE_not specified,0.0005588324274867773,0.012159445032011718,presence tends to increase risk
+245,Bureau Overdue Amount Max,num__BUREAU_OVERDUE_AMOUNT_MAX,0.0005575883551500738,0.056028620564026715,mixed or non-monotonic effect
+246,Name Type Suite = Family,cat__NAME_TYPE_SUITE_Family,0.000556590617634356,-0.002008139679674059,presence tends to decrease risk
+247,Weekday Appr Process Start = Thursday,cat__WEEKDAY_APPR_PROCESS_START_THURSDAY,0.0005539630074054003,-0.0002345715620322153,presence tends to decrease risk
+248,Organization Type = Hotel,cat__ORGANIZATION_TYPE_Hotel,0.0005505993613041937,-0.11117938710958697,presence tends to decrease risk
+249,Flag Document 5,num__FLAG_DOCUMENT_5,0.0005394759937189519,0.1951829650921815,higher values tend to increase risk
+250,Occupation Type = Managers,cat__OCCUPATION_TYPE_Managers,0.0005188421928323805,-0.002735237550950842,presence tends to decrease risk
+251,Installment Has History,num__INST_HAS_HISTORY,0.0005118677509017289,0.3301114619100822,higher values tend to increase risk
+252,Organization Type = Services,cat__ORGANIZATION_TYPE_Services,0.0005054653156548738,-0.048306694836355746,presence tends to decrease risk
+253,Name Type Suite = Children,cat__NAME_TYPE_SUITE_Children,0.0005025874706916511,0.01907530298922211,presence tends to increase risk
+254,Flag Document 15,num__FLAG_DOCUMENT_15,0.0004902498912997544,-0.059963990407186314,mixed or non-monotonic effect
+255,Flag Document 8,num__FLAG_DOCUMENT_8,0.00048283752403222024,-0.3270984810705736,higher values tend to decrease risk
+256,Organization Type = Trade: Type 6,cat__ORGANIZATION_TYPE_Trade: type 6,0.00045913623762317,-0.21334385729278438,presence tends to decrease risk
+257,Occupation Type = Cooking Staff,cat__OCCUPATION_TYPE_Cooking staff,0.0004283917951397598,0.008575638057664037,presence tends to increase risk
+258,Organization Type = Industry: Type 3,cat__ORGANIZATION_TYPE_Industry: type 3,0.00042636561556719244,0.011540191495441832,presence tends to increase risk
+259,Organization Type = Trade: Type 7,cat__ORGANIZATION_TYPE_Trade: type 7,0.00040503015043213964,0.007745762733975425,presence tends to increase risk
+260,Credit card Delinquent Ratio,num__CC_DELINQUENT_RATIO,0.00040321017149835825,-0.08489657089257918,mixed or non-monotonic effect
+261,Nonlivingapartments Medi,num__NONLIVINGAPARTMENTS_MEDI,0.0003984709910582751,0.23990979477765118,higher values tend to increase risk
+262,Bureau Balance Severe Ratio,num__BUREAU_BALANCE_SEVERE_RATIO,0.0003949692181777209,0.09623107428296447,mixed or non-monotonic effect
+263,Credit card Days past due Mean,num__CC_DPD_MEAN,0.0003632040461525321,-0.14593704570054514,higher values tend to decrease risk
+264,Name Family Status = Separated,cat__NAME_FAMILY_STATUS_Separated,0.00035436503821983933,0.0003820798301603645,presence tends to increase risk
+265,Previous Contract Count,num__PREV_CONTRACT_COUNT,0.0003415558603592217,-0.14216210182963385,higher values tend to decrease risk
+266,Organization Type = Business Entity Type 1,cat__ORGANIZATION_TYPE_Business Entity Type 1,0.00033889617770910263,-0.010252309344650712,presence tends to decrease risk
+267,Bureau Balance Max Delinquency,num__BUREAU_BALANCE_MAX_DELINQUENCY,0.0003385206509847194,0.3440154235496369,higher values tend to increase risk
+268,Organization Type = Legal Services,cat__ORGANIZATION_TYPE_Legal Services,0.0003135996812488884,0.12041830412636045,presence tends to increase risk
+269,Credit card Days past due Def Max,num__CC_DPD_DEF_MAX,0.0003040022565983236,-0.11604789985090778,higher values tend to decrease risk
+270,Name Family Status = Widow,cat__NAME_FAMILY_STATUS_Widow,0.00030297276680357754,-0.00029288964287843555,presence tends to decrease risk
+271,Organization Type = Transport: Type 4,cat__ORGANIZATION_TYPE_Transport: type 4,0.00024751134333200753,0.004606392161804251,presence tends to increase risk
+272,Fondkapremont Mode = Reg Oper Account,cat__FONDKAPREMONT_MODE_reg oper account,0.00023905112175270915,-0.0006175044836709276,presence tends to decrease risk
+273,Reg Region Not Work Region,num__REG_REGION_NOT_WORK_REGION,0.00022413993428926915,-0.2799767250590284,higher values tend to decrease risk
+274,Wallsmaterial Mode = Block,cat__WALLSMATERIAL_MODE_Block,0.00021690948051400483,-0.0038099584708106704,presence tends to decrease risk
+275,Name Housing Type = With Parents,cat__NAME_HOUSING_TYPE_With parents,0.00020968925673514605,-0.00013552646487369202,presence tends to decrease risk
+276,Occupation Type = Security Staff,cat__OCCUPATION_TYPE_Security staff,0.00020443885296117514,0.003213322372175753,presence tends to increase risk
+277,Organization Type = Industry: Type 5,cat__ORGANIZATION_TYPE_Industry: type 5,0.00020358161418698728,-0.04027606086310698,presence tends to decrease risk
+278,Occupation Type = Cleaning Staff,cat__OCCUPATION_TYPE_Cleaning staff,0.00019344936299603432,-0.005693426409834501,presence tends to decrease risk
+279,Organization Type = Restaurant,cat__ORGANIZATION_TYPE_Restaurant,0.00018015816749539226,0.0038179790644790046,presence tends to increase risk
+280,Organization Type = Telecom,cat__ORGANIZATION_TYPE_Telecom,0.0001636724773561582,0.04601842611009488,presence tends to increase risk
+281,Bureau Days Overdue Mean,num__BUREAU_DAYS_OVERDUE_MEAN,0.00016094457532744855,-0.1525221003197982,higher values tend to decrease risk
+282,Organization Type = Industry: Type 12,cat__ORGANIZATION_TYPE_Industry: type 12,0.00015710521256551147,-0.07520713823396363,presence tends to decrease risk
+283,Credit card Contract Count,num__CC_CONTRACT_COUNT,0.00015513764810748398,-0.14988298275698633,higher values tend to decrease risk
+284,Occupation Type = It Staff,cat__OCCUPATION_TYPE_IT staff,0.00015215357416309416,-0.04634306867228588,presence tends to decrease risk
+285,Housetype Mode = Specific Housing,cat__HOUSETYPE_MODE_specific housing,0.00015014747623354197,0.015756905973830726,presence tends to increase risk
+286,Bureau Overdue Loan Ratio,num__BUREAU_OVERDUE_LOAN_RATIO,0.00014629459474235773,-0.17040104959307512,higher values tend to decrease risk
+287,Flag Own Realty = Y,cat__FLAG_OWN_REALTY_Y,0.00014587322948500514,-0.00014769697736483067,presence tends to decrease risk
+288,Bureau Days Overdue Max,num__BUREAU_DAYS_OVERDUE_MAX,0.0001439933112123981,0.10760854960985006,higher values tend to increase risk
+289,Organization Type = University,cat__ORGANIZATION_TYPE_University,0.0001328195648966357,-0.01894523116061464,presence tends to decrease risk
+290,Name Type Suite = Other B,cat__NAME_TYPE_SUITE_Other_B,0.00012627942487597466,0.008633623452624306,presence tends to increase risk
+291,Emergencystate Mode = No,cat__EMERGENCYSTATE_MODE_No,0.00012540013995021582,-0.006187468832649756,presence tends to decrease risk
+292,"Name Type Suite = Spouse, Partner","cat__NAME_TYPE_SUITE_Spouse, partner",0.00011518220708239824,0.0013521640867111273,presence tends to increase risk
+293,Organization Type = Industry: Type 7,cat__ORGANIZATION_TYPE_Industry: type 7,0.00010285660391673446,-0.00900219879076758,presence tends to decrease risk
+294,Organization Type = Insurance,cat__ORGANIZATION_TYPE_Insurance,9.728920122142881e-05,-0.03435482405257062,presence tends to decrease risk
+295,Occupation Type = Waiters/Barmen Staff,cat__OCCUPATION_TYPE_Waiters/barmen staff,9.438784763915464e-05,0.00780142911207804,presence tends to increase risk
+296,Organization Type = Xna,cat__ORGANIZATION_TYPE_XNA,9.215797763317823e-05,0.00028050508262822405,presence tends to increase risk
+297,Organization Type = Transport: Type 2,cat__ORGANIZATION_TYPE_Transport: type 2,8.727056410862133e-05,-0.0026347005004936364,presence tends to decrease risk
+298,Wallsmaterial Mode = Mixed,cat__WALLSMATERIAL_MODE_Mixed,8.608293865108863e-05,-0.006219575239811093,presence tends to decrease risk
+299,Flag Cont Mobile,num__FLAG_CONT_MOBILE,8.183606405509636e-05,-0.010948973480119256,mixed or non-monotonic effect
+300,Organization Type = Housing,cat__ORGANIZATION_TYPE_Housing,8.140536374412477e-05,-0.0038974264953139937,presence tends to decrease risk
+301,Occupation Type = Secretaries,cat__OCCUPATION_TYPE_Secretaries,8.018803055165336e-05,0.007408684781694319,presence tends to increase risk
+302,Organization Type = Emergency,cat__ORGANIZATION_TYPE_Emergency,7.181677938206121e-05,-0.02511888502340298,presence tends to decrease risk
+303,Organization Type = Transport: Type 1,cat__ORGANIZATION_TYPE_Transport: type 1,7.003045175224543e-05,-0.0817656168146641,presence tends to decrease risk
+304,Bureau Balance Severe Months,num__BUREAU_BALANCE_SEVERE_MONTHS,6.926021160325035e-05,0.02824804334720271,mixed or non-monotonic effect
+305,Organization Type = Postal,cat__ORGANIZATION_TYPE_Postal,6.732591282343492e-05,-0.004413962176272435,presence tends to decrease risk
+306,Wallsmaterial Mode = Monolithic,cat__WALLSMATERIAL_MODE_Monolithic,5.824971231049858e-05,-0.0035464847940147592,presence tends to decrease risk
+307,Flag Document 9,num__FLAG_DOCUMENT_9,4.892234574072063e-05,-0.10937630368387874,higher values tend to decrease risk
+308,Wallsmaterial Mode = Others,cat__WALLSMATERIAL_MODE_Others,4.423482096171938e-05,9.368142491439357e-05,presence tends to increase risk
+309,Amount Req Credit Bureau Hour,num__AMT_REQ_CREDIT_BUREAU_HOUR,4.364881897345185e-05,0.12409737301489127,higher values tend to increase risk
+310,Organization Type = Trade: Type 3,cat__ORGANIZATION_TYPE_Trade: type 3,4.352060932433233e-05,-0.0016261318735075747,presence tends to decrease risk
+311,Wallsmaterial Mode = Wooden,cat__WALLSMATERIAL_MODE_Wooden,3.582820136216469e-05,8.649765823065536e-05,presence tends to increase risk
+312,Organization Type = Advertising,cat__ORGANIZATION_TYPE_Advertising,2.6104968128493056e-05,0.01095508325852279,presence tends to increase risk
+313,Organization Type = Agriculture,cat__ORGANIZATION_TYPE_Agriculture,2.4835599106154405e-05,-0.0014484641615126748,presence tends to decrease risk
+314,Occupation Type = Private Service Staff,cat__OCCUPATION_TYPE_Private service staff,2.4270182620966807e-05,-0.0017275568065997504,presence tends to decrease risk
+315,Fondkapremont Mode = Org Spec Account,cat__FONDKAPREMONT_MODE_org spec account,2.3443799364031292e-05,0.0004538160483207321,presence tends to increase risk
+316,Bureau Has History,num__BUREAU_HAS_HISTORY,2.1229510821285658e-05,-0.6339302279179145,higher values tend to decrease risk
+317,Name Housing Type = Co-Op Apartment,cat__NAME_HOUSING_TYPE_Co-op apartment,2.0817826225538738e-05,0.002124578752045636,presence tends to increase risk
+318,Previous Has History,num__PREV_HAS_HISTORY,1.9374132534721866e-05,-0.38415825318182373,higher values tend to decrease risk
+319,Organization Type = Electricity,cat__ORGANIZATION_TYPE_Electricity,1.3839726307196543e-05,0.002517580445328349,presence tends to increase risk
+320,Organization Type = Security,cat__ORGANIZATION_TYPE_Security,1.1578490557440091e-05,8.247081404988421e-05,presence tends to increase risk
+321,POS Has History,num__POS_HAS_HISTORY,1.0641450899129268e-05,-0.4333184562149469,higher values tend to decrease risk
+322,Organization Type = Industry: Type 11,cat__ORGANIZATION_TYPE_Industry: type 11,9.631705324864015e-06,0.00026053201690956485,presence tends to increase risk
+323,Credit card Has History,num__CC_HAS_HISTORY,7.75088574300753e-06,-0.8031228619106531,higher values tend to decrease risk
+324,Organization Type = Infrequent Sklearn,cat__ORGANIZATION_TYPE_infrequent_sklearn,0.0,,presence tends to decrease risk
+325,Housetype Mode = Terraced House,cat__HOUSETYPE_MODE_terraced house,0.0,0.0,presence tends to decrease risk
+326,Name Type Suite = Other A,cat__NAME_TYPE_SUITE_Other_A,0.0,0.0,presence tends to decrease risk
+327,Name Income Type = Infrequent Sklearn,cat__NAME_INCOME_TYPE_infrequent_sklearn,0.0,0.0,presence tends to decrease risk
+328,Name Type Suite = Group Of People,cat__NAME_TYPE_SUITE_Group of people,0.0,0.0,presence tends to decrease risk
+329,Name Family Status = Infrequent Sklearn,cat__NAME_FAMILY_STATUS_infrequent_sklearn,0.0,,presence tends to decrease risk
+330,Flag Mobil,num__FLAG_MOBIL,0.0,0.0,constant in SHAP sample
+331,Code Gender = Infrequent Sklearn,cat__CODE_GENDER_infrequent_sklearn,0.0,,presence tends to decrease risk
+332,Organization Type = Trade: Type 4,cat__ORGANIZATION_TYPE_Trade: type 4,0.0,,presence tends to decrease risk
+333,Organization Type = Trade: Type 5,cat__ORGANIZATION_TYPE_Trade: type 5,0.0,,presence tends to decrease risk
+334,Housetype Mode = Block Of Flats,cat__HOUSETYPE_MODE_block of flats,0.0,0.0,presence tends to decrease risk
+335,Organization Type = Trade: Type 1,cat__ORGANIZATION_TYPE_Trade: type 1,0.0,0.0,presence tends to decrease risk
+336,Occupation Type = Realty Agents,cat__OCCUPATION_TYPE_Realty agents,0.0,0.0,presence tends to decrease risk
+337,Occupation Type = Hr Staff,cat__OCCUPATION_TYPE_HR staff,0.0,0.0,presence tends to decrease risk
+338,Flag Document 21,num__FLAG_DOCUMENT_21,0.0,0.0,constant in SHAP sample
+339,Organization Type = Cleaning,cat__ORGANIZATION_TYPE_Cleaning,0.0,0.0,presence tends to decrease risk
+340,Flag Document 20,num__FLAG_DOCUMENT_20,0.0,0.0,constant in SHAP sample
+341,Flag Document 19,num__FLAG_DOCUMENT_19,0.0,0.0,constant in SHAP sample
+342,Flag Document 4,num__FLAG_DOCUMENT_4,0.0,0.0,constant in SHAP sample
+343,Flag Document 2,num__FLAG_DOCUMENT_2,0.0,0.0,constant in SHAP sample
+344,Flag Document 7,num__FLAG_DOCUMENT_7,0.0,0.0,constant in SHAP sample
+345,Flag Document 10,num__FLAG_DOCUMENT_10,0.0,0.0,constant in SHAP sample
+346,Flag Document 12,num__FLAG_DOCUMENT_12,0.0,0.0,constant in SHAP sample
+347,Flag Document 17,num__FLAG_DOCUMENT_17,0.0,0.0,constant in SHAP sample
+348,Organization Type = Religion,cat__ORGANIZATION_TYPE_Religion,0.0,0.0,presence tends to decrease risk
+349,Organization Type = Mobile,cat__ORGANIZATION_TYPE_Mobile,0.0,0.0,presence tends to decrease risk
+350,Organization Type = Industry: Type 1,cat__ORGANIZATION_TYPE_Industry: type 1,0.0,0.0,presence tends to decrease risk
+351,Organization Type = Industry: Type 10,cat__ORGANIZATION_TYPE_Industry: type 10,0.0,0.0,presence tends to decrease risk
+352,Organization Type = Industry: Type 13,cat__ORGANIZATION_TYPE_Industry: type 13,0.0,0.0,presence tends to decrease risk
+353,Organization Type = Industry: Type 2,cat__ORGANIZATION_TYPE_Industry: type 2,0.0,0.0,presence tends to decrease risk
+354,Organization Type = Industry: Type 4,cat__ORGANIZATION_TYPE_Industry: type 4,0.0,0.0,presence tends to decrease risk
+355,Organization Type = Industry: Type 6,cat__ORGANIZATION_TYPE_Industry: type 6,0.0,,presence tends to decrease risk
+356,Organization Type = Culture,cat__ORGANIZATION_TYPE_Culture,0.0,0.0,presence tends to decrease risk
+357,Emergencystate Mode = Yes,cat__EMERGENCYSTATE_MODE_Yes,0.0,0.0,presence tends to decrease risk

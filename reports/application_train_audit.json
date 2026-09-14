@@ -1,0 +1,20 @@
+{
+  "rows": 307511,
+  "columns": 122,
+  "target_counts": {
+    "0": 282686,
+    "1": 24825
+  },
+  "target_rates": {
+    "0": 0.9192711805431351,
+    "1": 0.08072881945686496
+  },
+  "numerical_features_excluding_target": 105,
+  "categorical_features": 16,
+  "columns_with_missing_values": 67,
+  "columns_over_50pct_missing": 41,
+  "duplicate_ids": 0,
+  "duplicate_rows": 0,
+  "infinite_numeric_values": 0,
+  "constant_columns": []
+}

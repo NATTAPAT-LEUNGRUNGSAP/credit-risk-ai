@@ -1,0 +1,18 @@
+{
+  "before_sha256": {
+    "reports\\metrics\\baseline_metrics.json": "6c850975348faebca9918bc3fa2eb2507900edb76bfb6b6766beffcd86d4ceb3",
+    "reports\\metrics\\phase2_metrics.json": "d0a26f2e4318596b9fa9dc4a00ec261a6fb34d98fcb0e74f4e80a80eb83cbfc8",
+    "models\\phase2_xgboost.json": "f9710e3b6835b2fb94b71cf89c205afe5c476d48717975f98833ebd119b7d835",
+    "models\\phase2_preprocessor.joblib": "141cfea9cc4f8587c3eac9de1fd715754870b0f1597efe4e927366c17a9eb5c9",
+    "data\\processed\\phase2_validation_predictions.csv": "5e2e9407460c29d013792c7ab17c00905c62021e501198d03e9a4ad70a0002c8"
+  },
+  "after_sha256": {
+    "reports\\metrics\\baseline_metrics.json": "6c850975348faebca9918bc3fa2eb2507900edb76bfb6b6766beffcd86d4ceb3",
+    "reports\\metrics\\phase2_metrics.json": "d0a26f2e4318596b9fa9dc4a00ec261a6fb34d98fcb0e74f4e80a80eb83cbfc8",
+    "models\\phase2_xgboost.json": "f9710e3b6835b2fb94b71cf89c205afe5c476d48717975f98833ebd119b7d835",
+    "models\\phase2_preprocessor.joblib": "141cfea9cc4f8587c3eac9de1fd715754870b0f1597efe4e927366c17a9eb5c9",
+    "data\\processed\\phase2_validation_predictions.csv": "5e2e9407460c29d013792c7ab17c00905c62021e501198d03e9a4ad70a0002c8"
+  },
+  "all_preserved": true,
+  "max_recomputed_vs_saved_phase2_prediction_difference": 2.980117796980153e-08
+}

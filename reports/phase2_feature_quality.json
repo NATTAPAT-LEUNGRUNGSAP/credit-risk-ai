@@ -1,0 +1,23 @@
+{
+  "rows": 307511,
+  "columns_including_id": 117,
+  "relational_feature_count": 116,
+  "unique_applicant_ids": 307511,
+  "duplicate_applicant_ids": 0,
+  "target_present": false,
+  "duplicate_feature_names": 0,
+  "source_applicants_with_history": {
+    "BUREAU": 263491,
+    "PREV": 291057,
+    "INST": 291643,
+    "POS": 289444,
+    "CC": 86905
+  },
+  "null_counts_by_source": {
+    "BUREAU": 2192540,
+    "PREV": 433077,
+    "INST": 253899,
+    "POS": 234919,
+    "CC": 5324777
+  }
+}

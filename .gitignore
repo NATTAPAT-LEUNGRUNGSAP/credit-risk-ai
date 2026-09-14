@@ -1,0 +1,38 @@
+# Raw and generated data (Home Credit data must never be committed)
+data/raw/
+data/processed/
+*.zip
+*.parquet
+*.feather
+
+# Trained models and large ML artifacts
+models/
+*.joblib
+*.pkl
+*.keras
+*.h5
+*.onnx
+*.ckpt
+*.pb
+
+# Python / environments
+.venv/
+.release-check-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime outputs and local settings
+logs/
+.env
+.streamlit/secrets.toml
+.mplconfig/
+.uv-cache/
+.uv-python/
+
+# Notebook and OS noise
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

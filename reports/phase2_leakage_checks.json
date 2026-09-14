@@ -1,0 +1,22 @@
+{
+  "application_rows_before_join": 307511,
+  "relational_rows": 307511,
+  "relational_unique_ids": 307511,
+  "relational_duplicate_ids": 0,
+  "target_absent_from_relational_features": true,
+  "train_validation_overlap": 0,
+  "split_union_matches_application_ids": true,
+  "train_ids_match_phase1_count": true,
+  "validation_ids_match_phase1_count": true,
+  "manifest_targets_match_application": true,
+  "rows_after_join": 307511,
+  "join_preserved_application_rows": true,
+  "relational_feature_count": 116,
+  "application_feature_count": 120,
+  "enriched_raw_feature_count": 236,
+  "nonfinite_relational_values_after_cleaning": 0,
+  "train_positive_count": 19860,
+  "validation_positive_count": 4965,
+  "train_id_order_matches_phase1_manifest": true,
+  "validation_id_order_matches_phase1_manifest": true
+}

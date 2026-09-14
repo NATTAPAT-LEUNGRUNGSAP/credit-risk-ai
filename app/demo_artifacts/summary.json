@@ -1,0 +1,13 @@
+{
+  "project_title": "Credit risk decision-support demo",
+  "primary_model": "Phase 2 XGBoost",
+  "roc_auc": 0.7866468441565756,
+  "pr_auc": 0.2882174181319247,
+  "dataset_default_rate": 0.08072881945686496,
+  "validation_rows": 61503,
+  "phase1_xgboost_roc_auc": 0.7628057444240641,
+  "phase1_xgboost_pr_auc": 0.2532178806817097,
+  "calibration_method": "Platt scaling",
+  "is_educational_demo": true,
+  "is_automated_approval_system": false
+}

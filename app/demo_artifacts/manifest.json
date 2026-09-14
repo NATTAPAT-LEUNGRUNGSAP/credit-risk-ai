@@ -1,0 +1,70 @@
+{
+  "purpose": "Minimal anonymous precomputed bundle for the public Streamlit demo",
+  "requires_raw_dataset": false,
+  "requires_model_files": false,
+  "contains_private_applicant_identifiers": false,
+  "artifact_count": 12,
+  "total_size_bytes": 453917,
+  "artifacts": [
+    {
+      "path": "anonymized_applicants.csv",
+      "size_bytes": 1836,
+      "sha256": "7eacf033d92b01df73513ee88bcb6cf6ebb8ed5e934340dc2d5925d9c459233b"
+    },
+    {
+      "path": "calibration_comparison.csv",
+      "size_bytes": 411,
+      "sha256": "2e6e4ffba59c17287b359b9c0731b96859c02338b80b51e6f639f950594a6355"
+    },
+    {
+      "path": "cost_sensitivity.csv",
+      "size_bytes": 762,
+      "sha256": "85b779f7f20ce9600bd4708e807274a4f33c2d15ee670615d5f88e92bb514fd2"
+    },
+    {
+      "path": "figures/calibration_curve.png",
+      "size_bytes": 82820,
+      "sha256": "e35a5509fe40ce5aec16871639347f0d41bfd393ff0cb725a1bc003a7d9dbedb"
+    },
+    {
+      "path": "figures/shap_beeswarm.png",
+      "size_bytes": 352818,
+      "sha256": "04ec4e7e6df4685ed618e7126ce9f0d1b4b34d9977ab042c051a9139852c5acc"
+    },
+    {
+      "path": "model_comparison.csv",
+      "size_bytes": 366,
+      "sha256": "8128ae023f7bed0c8333eafd0d4e405c1ef9f2dda081934431bb40360dd91157"
+    },
+    {
+      "path": "probability_histogram.csv",
+      "size_bytes": 1931,
+      "sha256": "0889b1f88881e5fc8455bb2a605fd943ec95764284d9af981db42b7ddbb17114"
+    },
+    {
+      "path": "risk_bands.csv",
+      "size_bytes": 464,
+      "sha256": "a0350668348cab9742bd0ca57609860a10164c8144329645390b7f4a8b3010aa"
+    },
+    {
+      "path": "shap_global_importance.csv",
+      "size_bytes": 3165,
+      "sha256": "d9b3ac11c2cd21454c1a70562f013d939e4b9bb21f6912649e61ab84bc33e4ad"
+    },
+    {
+      "path": "summary.json",
+      "size_bytes": 456,
+      "sha256": "053ae4972ac7cc52f12e430b196740599c43fadd5aaf66d64ca3aa9f0714fd80"
+    },
+    {
+      "path": "threshold_metrics.csv",
+      "size_bytes": 8762,
+      "sha256": "609ba6ef33e1f531b0aa840b045db2c13dfd3532bfbd8c37ad4f2ce13061f176"
+    },
+    {
+      "path": "xgboost_confusion_matrix.csv",
+      "size_bytes": 126,
+      "sha256": "a4179f61f830d01750024aea8549f0a13f11f15a2902879b7c2af0bd4e43f820"
+    }
+  ]
+}
